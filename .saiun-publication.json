@@ -10,47 +10,11 @@
     },
     "README.md": {
       "mode": "100644",
-      "sha256": "8ca0551a6001370f0dec72931a3ed75038e749a008f92fc52772c0d6c81bcc28"
+      "sha256": "90b9d35e7177f5b0cd8e05069e9f47d0f2b24e97c0fb6d005e31834a72a07fdb"
     },
     "THIRD_PARTY_NOTICES.md": {
       "mode": "100644",
       "sha256": "24b1479e4bd2017186a534aec9a90d1e7d7a9524671073acf82b1210871a29ee"
-    },
-    "publish_saiun.py": {
-      "mode": "100755",
-      "sha256": "2c6a13076fb0199ce9e6fdd4941c47058ac632a851c897bdaed558e4af07faf8"
-    },
-    "publishing/NOTICES.public.md": {
-      "mode": "100644",
-      "sha256": "24b1479e4bd2017186a534aec9a90d1e7d7a9524671073acf82b1210871a29ee"
-    },
-    "publishing/PUBLISHING.md": {
-      "mode": "100644",
-      "sha256": "0cd2319aa2aaaecd43969cbdcaa618250c8dec873a8b7d3ae2111a588b491629"
-    },
-    "publishing/README.public.md": {
-      "mode": "100644",
-      "sha256": "8ca0551a6001370f0dec72931a3ed75038e749a008f92fc52772c0d6c81bcc28"
-    },
-    "publishing/UBUNTU.md": {
-      "mode": "100644",
-      "sha256": "64cfb01f53ba43595a348d6dc4f842c8e04f1cf24687cb7effd10038d16689d4"
-    },
-    "publishing/__init__.py": {
-      "mode": "100644",
-      "sha256": "06ac46c859411bf291e44e4637f7ba7d08d9d4eeaf391fe6911142cf6b968ad4"
-    },
-    "publishing/manifest.json": {
-      "mode": "100644",
-      "sha256": "b14cf7d56515114c8cab4e34672aeb1e84de3ed85dfe66b74f6c911a14d98756"
-    },
-    "publishing/publisher.py": {
-      "mode": "100644",
-      "sha256": "1009e07e334ef13c13f28cd9715d7d0b5eb92cedf827a939e07428db348eaa3c"
-    },
-    "publishing/tests/test_publisher.py": {
-      "mode": "100644",
-      "sha256": "e1ef6c6c3d0612708c40c01a2ec38186377d36b687fcdb6386b65444f7ca2094"
     },
     "ubuntu/README.md": {
       "mode": "100644",

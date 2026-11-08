@@ -25,10 +25,6 @@ iPad版は将来の展開を想定していますが、現在は含まれてい�
 
 本体コード・独自素材・資料は[MIT License](LICENSE)です。内蔵のIPAexフォントや依存ライブラリにはそれぞれのライセンスが適用されます。[第三者素材の表示](THIRD_PARTY_NOTICES.md)を参照してください。書籍・表紙・読書記録は同梱しません。
 
-## このリポジトリについて
-
-GitHubはソースの公開・配布先です。通常の開発フォルダはGit管理せず、公開時のみOSの一時領域でGitを使用します。[公開手順](publishing/PUBLISHING.md)を参照してください。
-
 ---
 
 ## English
@@ -58,4 +54,4 @@ See [CONTRIBUTING.md](CONTRIBUTING.md). Bug reports should include your environm
 
 Application code, original assets, and documentation are under the [MIT License](LICENSE). Bundled IPAex fonts and dependencies retain their own licenses; see [third-party notices](THIRD_PARTY_NOTICES.md). Books, covers, and reading records are not included.
 
-GitHub hosts published source snapshots. Daily development does not use Git; publication uses a temporary Git workspace with an explicit confirmation before committing or pushing. See [publication instructions](publishing/PUBLISHING.md).
+GitHub hosts published application source snapshots. Publication tools and private development records are not included.
