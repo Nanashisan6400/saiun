@@ -10,15 +10,75 @@
     },
     "README.md": {
       "mode": "100644",
-      "sha256": "90b9d35e7177f5b0cd8e05069e9f47d0f2b24e97c0fb6d005e31834a72a07fdb"
+      "sha256": "cdf419865249e4e926249bd73f50e77cbcfd158130f17b8e0cab6d50b4d0b11b"
     },
     "THIRD_PARTY_NOTICES.md": {
       "mode": "100644",
       "sha256": "24b1479e4bd2017186a534aec9a90d1e7d7a9524671073acf82b1210871a29ee"
     },
+    "docs/SCREENSHOT_CREDITS.md": {
+      "mode": "100644",
+      "sha256": "6ebc9d108fae6d1a65c85c581a9d365e745367c4c88988c23701ba73e5761a0f"
+    },
+    "docs/USER_GUIDE.ja.md": {
+      "mode": "100644",
+      "sha256": "e18ca8164503b80e329cac0d030cde1073043dfcb10572cfbef90b1800874038"
+    },
+    "docs/images/01-bookshelf.png": {
+      "mode": "100644",
+      "sha256": "2aaa10c1ea4f18098bd28e19e7de04b1e811a0a4c1546f78d4349a3c281ddf71"
+    },
+    "docs/images/02-list.png": {
+      "mode": "100644",
+      "sha256": "1d86b52589a8d4d634aa8fd82ffc98f837a60420adca0cacca20d4baa06f6fa2"
+    },
+    "docs/images/03-reading.png": {
+      "mode": "100644",
+      "sha256": "fbd139be81d66745c84e8fced1f89ea5743667a207f40c00cea008e79c4681e7"
+    },
+    "docs/images/04-contents.png": {
+      "mode": "100644",
+      "sha256": "b4f00c8ab56abc7e05147daf9b8ca3f306e4f04450cf6ed297043973f6b44400"
+    },
+    "docs/images/05-bookmarks.png": {
+      "mode": "100644",
+      "sha256": "b0b96109f5acce0cb6d99a985359c9151402a6922d49a6c5ffa724f5a0a2470b"
+    },
+    "docs/images/06-text-settings.png": {
+      "mode": "100644",
+      "sha256": "ea55131eb967428d3120db34f8c33490ac9f6893349a9452b1798f5fcb58c31f"
+    },
+    "docs/images/07-paragraph-settings.png": {
+      "mode": "100644",
+      "sha256": "07e0e4106bc9fc7bbe49f850bd81000fbbe57df1e2d4c84d4c7e239f9e934be8"
+    },
+    "docs/images/08-spread.png": {
+      "mode": "100644",
+      "sha256": "df4be6e180576646f232f4da4d49e749fa99b2873917c3acb7787a0c85ae6ec7"
+    },
+    "docs/images/09-horizontal.png": {
+      "mode": "100644",
+      "sha256": "c7638501330e27945093704d69573dbb899fe6c6d61e8d0594361b187ababdb3"
+    },
+    "docs/images/10-dark.png": {
+      "mode": "100644",
+      "sha256": "3b1dd77d6705d710c9c74e4c121a7cc5cafeff9f4fcf241e96285b3957dd054c"
+    },
+    "docs/images/11-app-settings.png": {
+      "mode": "100644",
+      "sha256": "2e80252f445d90879152a3d7db81d5e4f39e98b30f5152545f21838b210fc8f4"
+    },
+    "docs/images/12-delete-selection.png": {
+      "mode": "100644",
+      "sha256": "0b117246cb1cbf07b45dcd38aae2d309a86525605a4548a48d663ab59cae4148"
+    },
+    "docs/images/13-delete-confirmation.png": {
+      "mode": "100644",
+      "sha256": "75d310fa0b5c6fd592615983f6808f42d1675f12492ec01ee5c992c80dde4f55"
+    },
     "ubuntu/README.md": {
       "mode": "100644",
-      "sha256": "64cfb01f53ba43595a348d6dc4f842c8e04f1cf24687cb7effd10038d16689d4"
+      "sha256": "80290af03be6a58776f288f4d6924883ff5f8d6d7ed6e5d36b3bfba654bae952"
     },
     "ubuntu/ubuntureader/LICENSE": {
       "mode": "100644",

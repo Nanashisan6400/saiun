@@ -1,5 +1,7 @@
 # Ubuntu版 / Ubuntu version
 
+画面付きの操作説明は[彩雲 取扱説明書](../docs/USER_GUIDE.ja.md)をご覧ください。
+
 GTK4・libadwaita・WebKitGTK 6.0・Python/PyGObjectを使用するオフラインEPUBリーダーです。
 開発実機はUbuntu 26.04 / GNOME Wayland / Surface Go 3です。全環境での互換性を保証する段階ではありません。
 

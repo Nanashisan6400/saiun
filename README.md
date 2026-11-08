@@ -4,6 +4,8 @@
 
 表示名は日本語環境では「彩雲」、それ以外では「Saiun」です。
 
+**[スクリーンショット付き取扱説明書](docs/USER_GUIDE.ja.md)** — インストール、本棚、読書操作、目次・しおり、文字設定、削除までを説明しています。
+
 ## 対応環境
 
 現在はUbuntu版を開発中です。GTK4・libadwaita・WebKitGTKを使用し、縦書き/横書き、ルビ、章改ページ、目次、しおり、読書位置の保存、見開き、文字設定などに対応します。開発・確認環境はSurface Go 3のUbuntu/Waylandです。詳細と起動方法は[Ubuntu版](ubuntu/README.md)をご覧ください。
@@ -32,6 +34,8 @@ iPad版は将来の展開を想定していますが、現在は含まれてい�
 Saiun is an EPUB reader developed for the author's own comfortable reading. Lightweight performance, simple controls, and a comfortable reading experience are the highest priorities.
 
 The application is named **彩雲** in Japanese environments and **Saiun** in other environments.
+
+**[Illustrated user guide (Japanese)](docs/USER_GUIDE.ja.md)**
 
 ### Platforms
 
