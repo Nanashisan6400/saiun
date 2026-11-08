@@ -1,0 +1,218 @@
+{
+  "schema": 1,
+  "repository": "Nanashisan6400/saiun",
+  "files": [
+    {
+      "source": "publishing/README.public.md",
+      "destination": "README.md"
+    },
+    {
+      "source": "publishing/UBUNTU.md",
+      "destination": "ubuntu/README.md"
+    },
+    {
+      "source": "publishing/NOTICES.public.md",
+      "destination": "THIRD_PARTY_NOTICES.md"
+    },
+    {
+      "source": "ubuntureader/LICENSE",
+      "destination": "LICENSE"
+    },
+    {
+      "source": "ubuntureader/CONTRIBUTING.md",
+      "destination": "CONTRIBUTING.md"
+    },
+    {
+      "source": "ubuntureader/LICENSE",
+      "destination": "ubuntu/ubuntureader/LICENSE"
+    },
+    {
+      "source": "ubuntureader/__init__.py",
+      "destination": "ubuntu/ubuntureader/__init__.py"
+    },
+    {
+      "source": "ubuntureader/run.sh",
+      "destination": "ubuntu/ubuntureader/run.sh",
+      "executable": true
+    },
+    {
+      "source": "ubuntureader/install_launcher.py",
+      "destination": "ubuntu/ubuntureader/install_launcher.py"
+    },
+    {
+      "source": "ubuntureader/reader/__init__.py",
+      "destination": "ubuntu/ubuntureader/reader/__init__.py"
+    },
+    {
+      "source": "ubuntureader/reader/__main__.py",
+      "destination": "ubuntu/ubuntureader/reader/__main__.py"
+    },
+    {
+      "source": "ubuntureader/reader/app.py",
+      "destination": "ubuntu/ubuntureader/reader/app.py"
+    },
+    {
+      "source": "ubuntureader/reader/assets.py",
+      "destination": "ubuntu/ubuntureader/reader/assets.py"
+    },
+    {
+      "source": "ubuntureader/reader/branding.py",
+      "destination": "ubuntu/ubuntureader/reader/branding.py"
+    },
+    {
+      "source": "ubuntureader/reader/bundled_fonts.py",
+      "destination": "ubuntu/ubuntureader/reader/bundled_fonts.py"
+    },
+    {
+      "source": "ubuntureader/reader/cache_budget.py",
+      "destination": "ubuntu/ubuntureader/reader/cache_budget.py"
+    },
+    {
+      "source": "ubuntureader/reader/chapters.py",
+      "destination": "ubuntu/ubuntureader/reader/chapters.py"
+    },
+    {
+      "source": "ubuntureader/reader/contents.py",
+      "destination": "ubuntu/ubuntureader/reader/contents.py"
+    },
+    {
+      "source": "ubuntureader/reader/epub.py",
+      "destination": "ubuntu/ubuntureader/reader/epub.py"
+    },
+    {
+      "source": "ubuntureader/reader/library.py",
+      "destination": "ubuntu/ubuntureader/reader/library.py"
+    },
+    {
+      "source": "ubuntureader/reader/progressive.py",
+      "destination": "ubuntu/ubuntureader/reader/progressive.py"
+    },
+    {
+      "source": "ubuntureader/reader/seamless_book.py",
+      "destination": "ubuntu/ubuntureader/reader/seamless_book.py"
+    },
+    {
+      "source": "ubuntureader/reader/seamless_view.py",
+      "destination": "ubuntu/ubuntureader/reader/seamless_view.py"
+    },
+    {
+      "source": "ubuntureader/reader/simple_cover.py",
+      "destination": "ubuntu/ubuntureader/reader/simple_cover.py"
+    },
+    {
+      "source": "ubuntureader/reader/view.py",
+      "destination": "ubuntu/ubuntureader/reader/view.py"
+    },
+    {
+      "source": "ubuntureader/reader/default.css",
+      "destination": "ubuntu/ubuntureader/reader/default.css"
+    },
+    {
+      "source": "ubuntureader/reader/reading.js",
+      "destination": "ubuntu/ubuntureader/reader/reading.js"
+    },
+    {
+      "source": "ubuntureader/reader/seamless_probe.js",
+      "destination": "ubuntu/ubuntureader/reader/seamless_probe.js"
+    },
+    {
+      "source": "ubuntureader/reader/seamless_report.js",
+      "destination": "ubuntu/ubuntureader/reader/seamless_report.js"
+    },
+    {
+      "source": "ubuntureader/reader/test_library.py",
+      "destination": "ubuntu/ubuntureader/reader/test_library.py"
+    },
+    {
+      "source": "ubuntureader/reader/test_fixed.py",
+      "destination": "ubuntu/ubuntureader/reader/test_fixed.py"
+    },
+    {
+      "source": "ubuntureader/reader/test_progressive.py",
+      "destination": "ubuntu/ubuntureader/reader/test_progressive.py"
+    },
+    {
+      "source": "ubuntureader/reader/test_seamless.py",
+      "destination": "ubuntu/ubuntureader/reader/test_seamless.py"
+    },
+    {
+      "source": "ubuntureader/stage0/sample_epub.py",
+      "destination": "ubuntu/ubuntureader/stage0/sample_epub.py"
+    },
+    {
+      "source": "ubuntureader/stage0/probe.js",
+      "destination": "ubuntu/ubuntureader/stage0/probe.js"
+    },
+    {
+      "source": "ubuntureader/stage0/typography.js",
+      "destination": "ubuntu/ubuntureader/stage0/typography.js"
+    },
+    {
+      "source": "ubuntureader/assets/app-icon.svg",
+      "destination": "ubuntu/ubuntureader/assets/app-icon.svg"
+    },
+    {
+      "source": "ubuntureader/assets/fonts/IPA_Font_License_Agreement_v1.0.txt",
+      "destination": "ubuntu/ubuntureader/assets/fonts/IPA_Font_License_Agreement_v1.0.txt"
+    },
+    {
+      "source": "ubuntureader/assets/fonts/README.md",
+      "destination": "ubuntu/ubuntureader/assets/fonts/README.md"
+    },
+    {
+      "source": "ubuntureader/assets/fonts/Readme_IPAexfont00401.txt",
+      "destination": "ubuntu/ubuntureader/assets/fonts/Readme_IPAexfont00401.txt"
+    },
+    {
+      "source": "ubuntureader/assets/fonts/ipaexg.ttf",
+      "destination": "ubuntu/ubuntureader/assets/fonts/ipaexg.ttf",
+      "sha256": "3b9955a5e437ffb24c41548e79296fa724822da21ee75dc1b94f6ccdb8f400dd"
+    },
+    {
+      "source": "ubuntureader/assets/fonts/ipaexm.ttf",
+      "destination": "ubuntu/ubuntureader/assets/fonts/ipaexm.ttf",
+      "sha256": "7a306386f930fee80922f71eebf4ffe0f1ff2817da8e619230953487673d71c7"
+    },
+    {
+      "source": "publish_saiun.py",
+      "destination": "publish_saiun.py",
+      "executable": true
+    },
+    {
+      "source": "publishing/__init__.py",
+      "destination": "publishing/__init__.py"
+    },
+    {
+      "source": "publishing/publisher.py",
+      "destination": "publishing/publisher.py"
+    },
+    {
+      "source": "publishing/manifest.json",
+      "destination": "publishing/manifest.json"
+    },
+    {
+      "source": "publishing/README.public.md",
+      "destination": "publishing/README.public.md"
+    },
+    {
+      "source": "publishing/UBUNTU.md",
+      "destination": "publishing/UBUNTU.md"
+    },
+    {
+      "source": "publishing/NOTICES.public.md",
+      "destination": "publishing/NOTICES.public.md"
+    },
+    {
+      "source": "publishing/PUBLISHING.md",
+      "destination": "publishing/PUBLISHING.md"
+    },
+    {
+      "source": "publishing/tests/test_publisher.py",
+      "destination": "publishing/tests/test_publisher.py"
+    },
+    {
+      "source": "ubuntureader/reader/sections.py",
+      "destination": "ubuntu/ubuntureader/reader/sections.py"
+    }
+  ]
+}

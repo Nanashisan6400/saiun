@@ -1,0 +1,214 @@
+{
+  "files": {
+    "CONTRIBUTING.md": {
+      "mode": "100644",
+      "sha256": "3b451e03eb1fdd06a5932aecd63c2e808620c97cfacfd2f0cbcd421b29f826c8"
+    },
+    "LICENSE": {
+      "mode": "100644",
+      "sha256": "20f6dc45114d5cee2b208d1d386a40b291dfa824ce7403eada839fce74536e77"
+    },
+    "README.md": {
+      "mode": "100644",
+      "sha256": "8ca0551a6001370f0dec72931a3ed75038e749a008f92fc52772c0d6c81bcc28"
+    },
+    "THIRD_PARTY_NOTICES.md": {
+      "mode": "100644",
+      "sha256": "24b1479e4bd2017186a534aec9a90d1e7d7a9524671073acf82b1210871a29ee"
+    },
+    "publish_saiun.py": {
+      "mode": "100755",
+      "sha256": "2c6a13076fb0199ce9e6fdd4941c47058ac632a851c897bdaed558e4af07faf8"
+    },
+    "publishing/NOTICES.public.md": {
+      "mode": "100644",
+      "sha256": "24b1479e4bd2017186a534aec9a90d1e7d7a9524671073acf82b1210871a29ee"
+    },
+    "publishing/PUBLISHING.md": {
+      "mode": "100644",
+      "sha256": "0cd2319aa2aaaecd43969cbdcaa618250c8dec873a8b7d3ae2111a588b491629"
+    },
+    "publishing/README.public.md": {
+      "mode": "100644",
+      "sha256": "8ca0551a6001370f0dec72931a3ed75038e749a008f92fc52772c0d6c81bcc28"
+    },
+    "publishing/UBUNTU.md": {
+      "mode": "100644",
+      "sha256": "64cfb01f53ba43595a348d6dc4f842c8e04f1cf24687cb7effd10038d16689d4"
+    },
+    "publishing/__init__.py": {
+      "mode": "100644",
+      "sha256": "06ac46c859411bf291e44e4637f7ba7d08d9d4eeaf391fe6911142cf6b968ad4"
+    },
+    "publishing/manifest.json": {
+      "mode": "100644",
+      "sha256": "b14cf7d56515114c8cab4e34672aeb1e84de3ed85dfe66b74f6c911a14d98756"
+    },
+    "publishing/publisher.py": {
+      "mode": "100644",
+      "sha256": "1009e07e334ef13c13f28cd9715d7d0b5eb92cedf827a939e07428db348eaa3c"
+    },
+    "publishing/tests/test_publisher.py": {
+      "mode": "100644",
+      "sha256": "e1ef6c6c3d0612708c40c01a2ec38186377d36b687fcdb6386b65444f7ca2094"
+    },
+    "ubuntu/README.md": {
+      "mode": "100644",
+      "sha256": "64cfb01f53ba43595a348d6dc4f842c8e04f1cf24687cb7effd10038d16689d4"
+    },
+    "ubuntu/ubuntureader/LICENSE": {
+      "mode": "100644",
+      "sha256": "20f6dc45114d5cee2b208d1d386a40b291dfa824ce7403eada839fce74536e77"
+    },
+    "ubuntu/ubuntureader/__init__.py": {
+      "mode": "100644",
+      "sha256": "cae697ae8e7f8c2683f0fe0b69082c8f892004fd2d3f66c5bc291872743105e3"
+    },
+    "ubuntu/ubuntureader/assets/app-icon.svg": {
+      "mode": "100644",
+      "sha256": "cb1944350ca2640e8fb618db83c0e1dea4432b6de994c6311798cef1b561b951"
+    },
+    "ubuntu/ubuntureader/assets/fonts/IPA_Font_License_Agreement_v1.0.txt": {
+      "mode": "100644",
+      "sha256": "4c84dd528ec3044638ec346fc1ee27cd1eb95dfc04cbc6a881b3ca7a7f517e54"
+    },
+    "ubuntu/ubuntureader/assets/fonts/README.md": {
+      "mode": "100644",
+      "sha256": "fda797b44086b55fdebf7f2e2e81967bdb0f7f624b33970f63933b473ce21608"
+    },
+    "ubuntu/ubuntureader/assets/fonts/Readme_IPAexfont00401.txt": {
+      "mode": "100644",
+      "sha256": "9538f22fdfb7eb1a1b49448c32bec5baa9bb5abf0197739f707e6ab9d8ea46e7"
+    },
+    "ubuntu/ubuntureader/assets/fonts/ipaexg.ttf": {
+      "mode": "100644",
+      "sha256": "3b9955a5e437ffb24c41548e79296fa724822da21ee75dc1b94f6ccdb8f400dd"
+    },
+    "ubuntu/ubuntureader/assets/fonts/ipaexm.ttf": {
+      "mode": "100644",
+      "sha256": "7a306386f930fee80922f71eebf4ffe0f1ff2817da8e619230953487673d71c7"
+    },
+    "ubuntu/ubuntureader/install_launcher.py": {
+      "mode": "100644",
+      "sha256": "c932a95f9346e1e053a75e4d140a3a5e257bb358a603e3ee710038ad53ba7ce0"
+    },
+    "ubuntu/ubuntureader/reader/__init__.py": {
+      "mode": "100644",
+      "sha256": "74da8e3e1752afa0545d44ed6d39c0ff911ba1f9396338b05644861a8b706128"
+    },
+    "ubuntu/ubuntureader/reader/__main__.py": {
+      "mode": "100644",
+      "sha256": "ca3cd0dbff23d5d4592bef1ccc9901daf15c3bdfc9e997945964c5443527d3b0"
+    },
+    "ubuntu/ubuntureader/reader/app.py": {
+      "mode": "100644",
+      "sha256": "bc8fc20f920c6a31acc00c4d5eb94e563fe426bd8efbaee91ab269858704cf95"
+    },
+    "ubuntu/ubuntureader/reader/assets.py": {
+      "mode": "100644",
+      "sha256": "6e7a2c37002f0d193fe273cbef08c64f28f83fcb938136d3f6566790c40d6518"
+    },
+    "ubuntu/ubuntureader/reader/branding.py": {
+      "mode": "100644",
+      "sha256": "65693eb67d0c36e2713f5a663684bf1a8b90bc16f878a8eb2383495db3cd01db"
+    },
+    "ubuntu/ubuntureader/reader/bundled_fonts.py": {
+      "mode": "100644",
+      "sha256": "a69308158ddb6e2db30a62a28cc27c975d7e6e9590e47e5d381831830baf2f65"
+    },
+    "ubuntu/ubuntureader/reader/cache_budget.py": {
+      "mode": "100644",
+      "sha256": "1dee9f0c96f6afc71071e8660fae10f92cfd2f2b89ca1499a45d46a4e1b300b0"
+    },
+    "ubuntu/ubuntureader/reader/chapters.py": {
+      "mode": "100644",
+      "sha256": "863f723dfa3ba28aa6234a239123a7f378d4e46e44aba3b75ecb8b7d1a272630"
+    },
+    "ubuntu/ubuntureader/reader/contents.py": {
+      "mode": "100644",
+      "sha256": "923d96a98f4fa7f7df831b74ab3023dd27ea49f20243afb9bd4549f3f234880a"
+    },
+    "ubuntu/ubuntureader/reader/default.css": {
+      "mode": "100644",
+      "sha256": "7258d30cc4d2d931095cc43131bb300b3cd158cd2dad60b69a1ace62698f44c1"
+    },
+    "ubuntu/ubuntureader/reader/epub.py": {
+      "mode": "100644",
+      "sha256": "c4232f6271cabf9eac23d17ed58c4a093f05156de00fca2e8b1637a09a5e6b22"
+    },
+    "ubuntu/ubuntureader/reader/library.py": {
+      "mode": "100644",
+      "sha256": "60505009f1921d934f13f995e1f37ad4bb1245e51ac76bde9dd45ade206fe432"
+    },
+    "ubuntu/ubuntureader/reader/progressive.py": {
+      "mode": "100644",
+      "sha256": "ba036281824a7944bd90b8f3a95bfe6104f1249e1c044ae57294528f87f26ba4"
+    },
+    "ubuntu/ubuntureader/reader/reading.js": {
+      "mode": "100644",
+      "sha256": "97f7eeebe2fb63255458ffde35db78336803e4a9a56df993423c8fedcc30a5da"
+    },
+    "ubuntu/ubuntureader/reader/seamless_book.py": {
+      "mode": "100644",
+      "sha256": "6cdfab2bf967a5b9500f08147c7cc31b3753f6005e78e64af33787b9da09ecdb"
+    },
+    "ubuntu/ubuntureader/reader/seamless_probe.js": {
+      "mode": "100644",
+      "sha256": "61e189087389a863cc8ff7d338eac769914151113a1842074f89686b591508c4"
+    },
+    "ubuntu/ubuntureader/reader/seamless_report.js": {
+      "mode": "100644",
+      "sha256": "9fb56947c098f6e7133968284df955a00e245283755ec32630b3885450b4f10f"
+    },
+    "ubuntu/ubuntureader/reader/seamless_view.py": {
+      "mode": "100644",
+      "sha256": "3807b803a00e0f00999c7a95f51f98ab9bf75d458e2a59b88f98018fe8227b16"
+    },
+    "ubuntu/ubuntureader/reader/sections.py": {
+      "mode": "100644",
+      "sha256": "51ba72288989d3f6777bdc02e5ab0cc3374544012f3ddb188ba228c33f250d7a"
+    },
+    "ubuntu/ubuntureader/reader/simple_cover.py": {
+      "mode": "100644",
+      "sha256": "cacec67a96b5071e84856d8d4de07687b2b20f8b0e70b0493d9bdcdc4eb63d7f"
+    },
+    "ubuntu/ubuntureader/reader/test_fixed.py": {
+      "mode": "100644",
+      "sha256": "c359ed9adc2e713ed16a407ddc655ff5477e01c6bfdf2472350189aeb0d16397"
+    },
+    "ubuntu/ubuntureader/reader/test_library.py": {
+      "mode": "100644",
+      "sha256": "550bae0dff2912fee54bca4d5ce6a8538555c534a1de72942487a18f436c29e0"
+    },
+    "ubuntu/ubuntureader/reader/test_progressive.py": {
+      "mode": "100644",
+      "sha256": "6b3fe25916d2e173473a1f1d805f8cbb0ca7cb90e19171f58b8521eb253bf8c3"
+    },
+    "ubuntu/ubuntureader/reader/test_seamless.py": {
+      "mode": "100644",
+      "sha256": "3d805396fe6f88afab42e1cf0fbe8675f251dac46016c2c7985e6cbe6a2c1e91"
+    },
+    "ubuntu/ubuntureader/reader/view.py": {
+      "mode": "100644",
+      "sha256": "72cacf19f36ab1c4524485dc39987463a4030b566fcd1f6645b25aa8d07e9fac"
+    },
+    "ubuntu/ubuntureader/run.sh": {
+      "mode": "100755",
+      "sha256": "39152a516885e4c3ff33ba740fc2c62b2f6c7efcdc678978ce2fa4fd403de3b0"
+    },
+    "ubuntu/ubuntureader/stage0/probe.js": {
+      "mode": "100644",
+      "sha256": "a970630096da678f10d77c962488055e6063a46385d87b26735d61dee894cdb2"
+    },
+    "ubuntu/ubuntureader/stage0/sample_epub.py": {
+      "mode": "100644",
+      "sha256": "44eb17c72d9e4d6ee8886c286948cc50d26b8c38b15199474183d40cf1f0235a"
+    },
+    "ubuntu/ubuntureader/stage0/typography.js": {
+      "mode": "100644",
+      "sha256": "1e88f6cf2a8d4fb0af71ca0e40aaa4235c8fe652138745bcc806bdbac5c5acd9"
+    }
+  },
+  "repository": "Nanashisan6400/saiun",
+  "schema": 1
+}

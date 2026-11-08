@@ -1,0 +1,12 @@
+/* Reader standard style, authored by the project owner (narou3). */
+body { writing-mode: vertical-rl; text-orientation: mixed; line-height: 1.8; word-break: normal; overflow-wrap: anywhere; }
+* { box-sizing: border-box; }
+h1,h2,h3 { font-weight: bold; margin: 0 0 1rem 0; }
+p { margin: 0 0 1rem 0; }
+.hltr { writing-mode: horizontal-tb; }
+.vrtl { writing-mode: vertical-rl; }
+.tcy { text-combine-upright: all; }
+.lat { writing-mode: horizontal-tb; display: inline-block; white-space: nowrap; }
+ruby rt { font-size: .6em; }
+img { max-width: 100%; max-height: 100%; }
+a { text-decoration: underline; }
