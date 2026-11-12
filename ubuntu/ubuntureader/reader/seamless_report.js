@@ -17,7 +17,8 @@
   const decoded=[...source.querySelectorAll('img')].reduce((sum,img)=>sum+(img.naturalWidth||0)*(img.naturalHeight||0)*4,0);
   state.cacheBytes=glyphs.length*1536+source.querySelectorAll('*').length*768+source.textContent.length*2+decoded+
    [...document.querySelectorAll('style')].reduce((sum,style)=>sum+style.textContent.length*2,0);
+  const occupiedPages=window.readerOccupiedPages(glyphs,pages[0]?.start??0,state.extent,step);
   reportCache={...state,cuts,missing:glyphs.filter(g=>!counts.has(g.id)).length,duplicate:glyphs.filter(g=>(counts.get(g.id)||0)>1).length,crossOverflow:glyphs.filter(g=>g.crossStart<-.5||g.crossEnd>crossExtent+.5).length,
-   examples,crossExamples:[],chapterStarts:[],boundaries:pages.map((p,index)=>({...p,index,first:firsts.get(index)?.locator}))};
+   examples,crossExamples:[],chapterStarts:[],boundaries:occupiedPages.map((p,index)=>({...p,index,first:firsts.get(index)?.locator||glyphs.find(g=>Math.min(g.end,p.end)-Math.max(g.start,p.start)>.25)?.locator}))};
   return reportCache;
  }

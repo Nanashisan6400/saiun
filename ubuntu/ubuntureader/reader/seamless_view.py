@@ -17,7 +17,7 @@ def scripts():
     probe=probe.replace("glyphs.push({id:glyphs.length,kind:'object'", "glyphs.push({node:object,offset:0,id:glyphs.length,kind:'object'")
     start=probe.index(' function report(){');end=probe.index(' async function show(',start)
     probe=probe[:start]+(HERE/'seamless_probe.js').read_text()+'\n'+(HERE/'seamless_report.js').read_text()+probe[end:]
-    probe=probe.replace('return {setup,report,show,anchor,restore,elementLocation};','return {setup,extend,signature,positions,report,show,anchor,restore,elementLocation};')
+    probe=probe.replace('return {setup,report,show,anchor,restore,elementLocation};','return {setup:compactSetup,extend,signature,positions,report,show,anchor,restore,elementLocation};')
     reading=(HERE/'reading.js').read_text().replace('return {anchor, progression:', 'return {anchor, cacheBytes:report.cacheBytes||0, progression:').replace('return {layout,show,theme,result};','return {layout,show,theme,result,refresh:()=>progressIndexes.clear()};')
     wrappers='''
     (()=>{
@@ -61,6 +61,7 @@ def scripts():
       };
       const locate=verticalTypography.locate,indices=new Map();
       verticalTypography.locate=(node,offset)=>{const l=locate(node,offset);if(l?.cfi){const key=l.cfi.slice(0,l.cfi.lastIndexOf(':'));if(!indices.has(key))indices.set(key,indices.size+1);l.textIndex=indices.get(key);}return l;};
+      window.readerOccupiedPages=(glyphs,origin,extent,step)=>{const occupied=new Set();for(const glyph of glyphs){const first=Math.max(0,Math.floor((glyph.start-origin)/step)-1),last=Math.floor((glyph.end-origin)/step)+1;for(let index=first;index<=last;index++){const start=origin+index*step,end=start+extent;if(Math.min(glyph.end,end)-Math.max(glyph.start,start)>.25)occupied.add(index);}}return [...occupied].sort((a,b)=>a-b).map(index=>({start:origin+index*step,end:origin+index*step+extent}));};
       let initial=true;const layout=reading.layout;reading.layout=async(options,...args)=>{if(initial)options={...options,deferReady:true};for(const section of document.querySelectorAll('[data-reader-part]'))readerAuthorBreaks(section);if(options.direction!=='original'&&options.direction!=='fixed')for(const section of document.querySelectorAll('[data-reader-part]'))section.style.setProperty('writing-mode',options.direction==='vertical'?'vertical-rl':'horizontal-tb','important');if(options.direction!=='fixed')readerTextSettings(options,[...document.querySelectorAll('#source *')]);const result=await layout(options,...args);initial=false;return result;};
     })();
     '''

@@ -178,15 +178,15 @@
     },
     "ubuntu/ubuntureader/reader/seamless_probe.js": {
       "mode": "100644",
-      "sha256": "61e189087389a863cc8ff7d338eac769914151113a1842074f89686b591508c4"
+      "sha256": "ff0ab2fac925c2db913e5de8e37507a2dc08ec6862633c475925527c845eeea5"
     },
     "ubuntu/ubuntureader/reader/seamless_report.js": {
       "mode": "100644",
-      "sha256": "9fb56947c098f6e7133968284df955a00e245283755ec32630b3885450b4f10f"
+      "sha256": "1237c9ac4939c9db2aa90d94c855685edaa0f54ae544952a217edd95d8da89b4"
     },
     "ubuntu/ubuntureader/reader/seamless_view.py": {
       "mode": "100644",
-      "sha256": "3807b803a00e0f00999c7a95f51f98ab9bf75d458e2a59b88f98018fe8227b16"
+      "sha256": "5f532c05c0fbf4405c57c5244179e2a106826cca9405971119b2172eb596c241"
     },
     "ubuntu/ubuntureader/reader/sections.py": {
       "mode": "100644",

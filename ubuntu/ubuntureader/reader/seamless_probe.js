@@ -1,3 +1,13 @@
+ async function compactSetup(options){
+  const value=await setup(options);
+  if(state.direction!=='fixed'){
+   const step=state.extent+(state.columnGap??0);
+   pages=window.readerOccupiedPages(glyphs,pages[0]?.start??0,state.extent,step);
+   state.pages=pages.length;reportCache=null;
+   return report();
+  }
+  return value;
+ }
  // Appending keeps the current transform: existing pages remain visible.
  async function extend(payload){
   const src=document.getElementById('source'),view=document.getElementById('viewport');
@@ -106,7 +116,9 @@
   while(item=all.nextNode())order.set(item,index++);
   for(const [i,g] of glyphs.entries()){g.id=i;g.order=order.get(g.node)??i;}
   const max=glyphs.reduce((n,g)=>Math.max(n,g.end),0),step=state.extent+state.columnGap,origin=pages[0]?.start??0;
-  pages=[];for(let start=origin;start<max;start+=step)pages.push({start,end:start+state.extent});
+  // Chapter breaks can leave empty columns. Keep only occupied columns so
+  // every page turn has a first-glyph anchor.
+  pages=window.readerOccupiedPages(glyphs,origin,state.extent,step);
   state.pages=pages.length;state.totalGlyphs=glyphs.length;state.max=max;reportCache=null;
   if(src.textContent!==expectedText)throw Error('Publication text changed while appending');
   reading.refresh();
