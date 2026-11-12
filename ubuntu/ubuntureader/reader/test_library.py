@@ -51,6 +51,30 @@ class LibraryTests(unittest.TestCase):
         self.assertEqual(len(self.library.listing('abc')), 1)
         self.assertEqual(json.loads(row['authors']), ['検証著者'])
 
+    def test_invalid_epub_page_progression_uses_writing_mode_default(self):
+        fixture(self.source, css='body{writing-mode:horizontal-tb}')
+        with ZipFile(self.source) as archive:
+            entries = {name:archive.read(name) for name in archive.namelist()}
+        entries['book.opf'] = entries['book.opf'].replace(b'page-progression-direction="rtl"', b'page-progression-direction="sideways"')
+        with ZipFile(self.source, 'w') as archive:
+            for name, raw in entries.items():
+                archive.writestr(name, raw)
+        from .epub import EpubBook
+        with EpubBook(self.source) as book:
+            self.assertIsNone(book.progression)
+
+    def test_horizontal_ltr_page_progression_is_preserved(self):
+        fixture(self.source, css='body{writing-mode:horizontal-tb}')
+        with ZipFile(self.source) as archive:
+            entries = {name:archive.read(name) for name in archive.namelist()}
+        entries['book.opf'] = entries['book.opf'].replace(b'page-progression-direction="rtl"', b'page-progression-direction="ltr"')
+        with ZipFile(self.source, 'w') as archive:
+            for name, raw in entries.items():
+                archive.writestr(name, raw)
+        from .epub import EpubBook
+        with EpubBook(self.source) as book:
+            self.assertEqual(book.progression, 'ltr')
+
     def test_duplicate_keeps_position_options_and_preferences_after_restart(self):
         row, _ = self.library.import_book(self.source)
         locator = self.locator(row)

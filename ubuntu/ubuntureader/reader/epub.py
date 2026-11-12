@@ -92,6 +92,8 @@ class EpubBook(SampleBook):
             self.authors = [self._text(element) for element in metadata.findall('dc:creator', DC)]
             self.language = self._text(metadata.find('dc:language', DC)) or None
             self.progression = package.find('o:spine', NS).get('page-progression-direction')
+            if self.progression not in ('ltr','rtl'):
+                self.progression = None
             self.hrefs = [quote(posixpath.relpath(href, posixpath.dirname(self.opf_path) or '.'), safe='/') for href in self.spine]
             self.chapters = self._chapters(package)
             self.layouts = self._layouts(package)

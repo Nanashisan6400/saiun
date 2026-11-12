@@ -3,7 +3,7 @@
  * U+2014 and ASCII periods remain under ordinary mixed-orientation shaping.
  */
 window.verticalTypography=(()=>{
- const targets=/[=\uff1d\u2015\u2025\u2026\u3001\u3002\u3008-\u3011\u3014-\u301f\u30fcぁぃぅぇぉっゃゅょゎゕゖァィゥェォッャュョヮヵヶ\u31f0-\u31ff\uff08\uff09\uff1c\uff1e\uff3b\uff3d\uff5b-\uff60]/u;
+ const targets=/[=\uff1d\u2015\u2025\u2026\u22ef\u3001\u3002\u3008-\u3011\u3014-\u301f\u30fcぁぃぅぇぉっゃゅょゎゕゖァィゥェォッャュョヮヵヶ\u31f0-\u31ff\uff08\uff09\uff1c\uff1e\uff3b\uff3d\uff5b-\uff60]/u;
  const maps=new WeakMap(),roots=new WeakMap();
  const rubySegments=new Intl.Segmenter('ja',{granularity:'grapheme'});
  function normalizeFamily(family){
@@ -62,20 +62,23 @@ window.verticalTypography=(()=>{
    const style=getComputedStyle(span.parentElement);
    span.style.cssText='';
    if(span.hasAttribute('data-stage0-ruby-char')&&!targets.test(span.textContent))continue;
-   if(!style.writingMode.startsWith('vertical')||style.textCombineUpright==='all'){
+   if(!style.writingMode.startsWith('vertical')||style.textCombineUpright==='all'&&!span.hasAttribute('data-stage0-latin')){
     if(span.hasAttribute('data-stage0-latin'))span.style.display='contents';
     continue;
    }
    if(span.hasAttribute('data-stage0-latin')){
     if(latinMode!=='native'){
      span.style.fontFamily=normalizeFamily(style.fontFamily);
-     span.style.paddingTop='.06em';
-     span.style.paddingLeft='.06em';
+     const combined=style.textCombineUpright==='all'||style.textCombineUpright==='digits'&&/^\d{2,4}$/u.test(span.textContent);
+     if(!combined){span.style.paddingTop='.06em';span.style.paddingLeft='.06em';}
      if(latinMode==='optical'){
       const delta=opticalOffset(span.textContent,style,span.style.fontFamily);
       if(delta!==null){
        const fine=parseFloat(style.fontSize)*.03;
-       span.style.position='relative';span.style.left=(delta+fine)+'px';span.style.top=fine+'px';
+       span.style.position='relative';span.style.left=(delta+fine)+'px';
+       // Combined digits occupy one upright square; move them from the line's
+       // top edge to the visual center, like the fullwidth angle glyphs.
+       if(combined)span.style.verticalAlign='middle';else span.style.top=fine+'px';
       }
      }
     }

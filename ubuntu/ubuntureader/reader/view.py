@@ -476,8 +476,10 @@ class ReadingView(Gtk.Box):
         self.load()
 
     def completed(self, value):
-        rtl = self.book.progression == 'rtl' or (not self.book.progression and value['direction'] == 'vertical')
-        self.reorder_child_after(self.primary_pane,self.secondary_pane if rtl else None)
+        # Keep the current reading page on the right for vertical text and on
+        # the left for horizontal text. EPUB progression still controls turns.
+        spread_rtl = value['direction'] == 'vertical'
+        self.reorder_child_after(self.primary_pane,self.secondary_pane if spread_rtl else None)
         if self.spread_active:
             page = value['page']+1
             blank = page >= value['pages']

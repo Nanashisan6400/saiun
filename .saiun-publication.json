@@ -158,7 +158,7 @@
     },
     "ubuntu/ubuntureader/reader/epub.py": {
       "mode": "100644",
-      "sha256": "c4232f6271cabf9eac23d17ed58c4a093f05156de00fca2e8b1637a09a5e6b22"
+      "sha256": "352743314028a095c48b1d82dfe2f7e608be6240e236fd0daa9f8a9b896d51c2"
     },
     "ubuntu/ubuntureader/reader/library.py": {
       "mode": "100644",
@@ -202,7 +202,7 @@
     },
     "ubuntu/ubuntureader/reader/test_library.py": {
       "mode": "100644",
-      "sha256": "550bae0dff2912fee54bca4d5ce6a8538555c534a1de72942487a18f436c29e0"
+      "sha256": "631edb64f0bc2bf49788f95e9864e813f402974dc495e1feda2d76cf7f126fce"
     },
     "ubuntu/ubuntureader/reader/test_progressive.py": {
       "mode": "100644",
@@ -214,7 +214,7 @@
     },
     "ubuntu/ubuntureader/reader/view.py": {
       "mode": "100644",
-      "sha256": "72cacf19f36ab1c4524485dc39987463a4030b566fcd1f6645b25aa8d07e9fac"
+      "sha256": "27df3a08f777a2e95045a8351e2102c3b75582a65629e82b03d7bbe8c9fe18da"
     },
     "ubuntu/ubuntureader/run.sh": {
       "mode": "100755",
@@ -230,7 +230,7 @@
     },
     "ubuntu/ubuntureader/stage0/typography.js": {
       "mode": "100644",
-      "sha256": "1e88f6cf2a8d4fb0af71ca0e40aaa4235c8fe652138745bcc806bdbac5c5acd9"
+      "sha256": "90368a45549e857c7fa38df580aa11fca2a48c08887b3759ea8ad24bd101bf57"
     }
   },
   "repository": "Nanashisan6400/saiun",
